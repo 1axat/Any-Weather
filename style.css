@@ -8,10 +8,7 @@ body{
     background-image: url(icons/back\ image.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
-    
-     
-    
+    background-size: cover; 
 }
 
 
@@ -137,4 +134,7 @@ body{
 
     border-radius: 20px;
     width: 30px;
+  }
+  @media screen and (max-width:600px){
+
   }
