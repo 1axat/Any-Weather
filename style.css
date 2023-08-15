@@ -5,13 +5,20 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #708090;
+    background-image: url(icons/back\ image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    
+     
+    
 }
+
 
 .card{
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, #00feba, #5b548a);
+    
     color: #fff;
     margin: 100px auto 0;
     border-radius: 20px;
@@ -36,6 +43,7 @@ body{
     border-radius: 30px;
     flex: 1;
     margin-right: 16px ;
+    margin-top: 40px;
     font-size: 18px;
 }
 
@@ -44,12 +52,19 @@ body{
     outline: 0;
     background: #ebfffc;
     border-radius: 50%;
+    margin-top: 39px;
     width: 60px;
     height: 60px;
     cursor: pointer;
 }
+
+.search button img:hover{
+    width: 32px;
+    
+}
+
 .search button img{
-    width: 16px;
+    width: 21px;
 }
 
 .weather-icon{
@@ -97,3 +112,29 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+
+.copyright{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .copyright p a{
+    
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .git-logo{
+
+    border-radius: 20px;
+    width: 30px;
+  }
