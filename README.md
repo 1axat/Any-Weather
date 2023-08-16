@@ -5,14 +5,15 @@ Welcome to Any-Weather, it provides real-time weather information using external
 
 API Integration:
 
-Any-Weather integrates with external weather APIs to provide accurate forecasts. This currently uses the OpenWeatherMap API as the data source. To change the API or add more sources:
+~Any-Weather integrates with external weather APIs to provide accurate forecasts. This currently uses the OpenWeatherMap API as the data source. To change the API or add more sources:
 
-Create an account with the desired API provider and obtain an API key.
+-> Create an account with the desired API provider and obtain an API key.
 
-Update the .env file with the new API key.
+-> Update the .env file with the new API key.
 
-Adjust API requests and responses in the codebase as needed.
+-> Adjust API requests and responses in the codebase as needed.
 
 
 FEATURES:
-Instantly view the current weather conditions for your selected location, including temperature, humidity, and wind speed.
+
+~Instantly view the current weather conditions for your selected location, including temperature, humidity, and wind speed.
